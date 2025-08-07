@@ -9,7 +9,7 @@ int main()
 	bob.beRepaired(20);
 	bob.guardGate();
 
-	std::cout << "ポリモーフィズム確認";
+	std::cout << "ポリモーフィズム確認\n";
 
 	ClapTrap *ptr = new ScavTrap("Alice");
 	ptr->attack("target");
